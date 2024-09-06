@@ -36,6 +36,12 @@ Route::group(['prefix' => 'tasks'], function () {
     Route::get('/', function () {
     	return view('tasks.list', ['tasks' => Tasks::all()]);
     })->name('tasks.list');
+
+    // Load the filtered list page
+    Route::get('/{status}', function ($status) {
+        $result = Tasks::where('status', '=', $status)->get();        
+        return view('tasks.list', ['tasks' => $result]);
+    })->name('tasks.filter');
     
     // Load the task create page.
     Route::get('create', function () {

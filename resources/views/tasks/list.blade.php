@@ -19,9 +19,9 @@
 
                                 <div class="pull-right mb-2">
                                         <a class="btn btn-success" href="{{route('tasks.create')}}"> Create Task</a>&nbsp;
-                                        <a class="btn btn-success" href="{{route('tasks.create')}}"> All Tasks</a>&nbsp;
-                                        <a class="btn btn-success" href="{{route('tasks.create')}}"> New Tasks</a>&nbsp;
-                                        <a class="btn btn-success" href="{{route('tasks.create')}}"> Completed Tasks</a>&nbsp;
+                                        <a class="btn btn-success" href="{{route('tasks.list')}}"> All Tasks</a>&nbsp;
+                                        <a class="btn btn-success" href="{{route('tasks.filter', ['status' => 1])}}"> New Tasks</a>&nbsp;
+                                        <a class="btn btn-success" href="{{route('tasks.filter', ['status' => 2])}}"> Completed Tasks</a>&nbsp;
                                 </div>
 
                         </div>
