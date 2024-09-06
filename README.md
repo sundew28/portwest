@@ -48,5 +48,5 @@ You can create or edit or delete tasks. Only NEW / COMPLETED tasks are listed . 
 - I would like to make improvement to the error capturing by making use of error handler in laravel.
 - Check the quality of code by using tools like PHPsniffer, PHP-CS-Fixer with PSR2 and Symfony standards (much extra checks, closer to Laravel than PSR2).
 - Writing unit tests and feature tests to ensure functionality better.
-- I have used the repository design pattern for this API development. We can use the Laravel manager/builder design pattern based on requirement.
+- I have used the repository design pattern for this app development. We can use the Laravel manager/builder design pattern based on requirement.
 
