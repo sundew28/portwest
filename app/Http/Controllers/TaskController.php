@@ -9,6 +9,6 @@ class TaskController extends Controller
 {
     public function index()
     {
-        return inertia('Tasks/TaskIndex',);
+       // return inertia('Tasks/TaskIndex',);
     }
 }
