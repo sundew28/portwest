@@ -44,7 +44,7 @@ Route::group(['prefix' => 'tasks'], function () {
     })->name('tasks.filter');
     
     // Load the task create page.
-    Route::get('create', function () {
+    Route::get('/create/tasks', function () {
         return view('tasks.create');
     })->name('tasks.create');
 
