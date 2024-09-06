@@ -36,7 +36,7 @@ class TaskDeleteController extends Controller
         // Usage of "rescue" function of laravel instead of try - catch        
         rescue(
             fn () => $this->taskRepository->destroy($request->id), 
-            "Task couldn't be updated.",
+            "Task couldn't be deleted.",
             false
         );       
        return Redirect::to('/tasks');
