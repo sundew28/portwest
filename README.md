@@ -33,11 +33,7 @@ $ composer run setup
 This would create all the basic and tasks tables to run your application smoothly. I populated the tasks table with dummy data for the purpose of testing.
 
 
-## Testing the Application
-
-The API endpoint require a "get" request to be made which is already made mandatory in the api route file for secure transfer of data.
-
-### Workflow 
+## Workflow 
 
 The purpose of the application is to manage the admin tasks. I have made the application simple by using the blade template of laravel instead of Vue / Inertia for the test purpose. Now you can view the application from the url like below
 
